@@ -17,3 +17,7 @@ Set the previous variables, install NodeJS, then run
 node groupme.js
 
 If you want it to run in the background, you can use something like Screen or pm2 to manage the job
+
+## Code operation
+
+Code grabs the most recent message every 5 seconds. If its a new message it hasnt seen before, it will check if it matches user1, user2, or it includes the preset phrase. If it matches any of those 3 criteria it will launch the 'like' function, which likes the message. 
