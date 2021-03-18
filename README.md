@@ -1,6 +1,6 @@
 # GroupMeBot
 
-Preliminary steps: 
+## Preliminary steps: 
 
 Set access token to your Z-Access-Token (can be gathered by going to network tab and grabbing the cookie from any credentialed network request)
 
@@ -10,7 +10,7 @@ set phrase to the phrase you want to track, and the UsertoTrack to userID of tra
 
 If you dont want to track user or group, you can just leave phrase blank, since being empty, it will always match
 
-Running code: 
+## Running code: 
 
 Set the previous variables, install NodeJS, then run 
 
