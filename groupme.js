@@ -6,11 +6,14 @@ var checkblocked = 0;
 var usertoTrack1 = 0; //userid to track
 var usertoTrack2 = 0; //userid to track
 var phrase = "": //phrase to check
-var group = ""; //maingroup
+phrase = phrase.toLowerCase();
+var group = 0; //maingroup
 var accesstoken = ""; //access token
 
 setInterval (function(){
-	getMessages();
+    var date = new Date(); // Create a Date object to find out what time it is
+    if((date.getHours() == 9) || (date.getHours() == 10 && date.getMinutes() <= 45) || (date.getHours() == 12 && date.getMinutes() <= 45) || (date.getHours() == 17)){ // between 5-645am ET, 8-845, 13-14
+		getMessages();
 }, 	5000);
 
 function getMessages() {
