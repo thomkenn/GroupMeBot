@@ -20,4 +20,6 @@ If you want it to run in the background, you can use something like Screen or pm
 
 ## Code operation
 
-Code grabs the most recent message every 5 seconds. If its a new message it hasnt seen before, it will check if it matches user1, user2, or it includes the preset phrase. If it matches any of those 3 criteria it will launch the 'like' function, which likes the message. 
+Every 5 seconds, code checks if the time is between 5-645am ET, 8-845, 13-14. If so, it grabs the most recent message. If its a new message it hasnt seen before, it will check if it matches user1, user2, or it includes the preset phrase. If it matches any of those 3 criteria it will launch the 'like' function, which likes the message. 
+
+Notes: Times are set bet
