@@ -10,3 +10,10 @@ set phrase to the phrase you want to track, and the UsertoTrack to userID of tra
 
 If you dont want to track user or group, you can just leave phrase blank, since being empty, it will always match
 
+Running code: 
+
+Set the previous variables, install NodeJS, then run 
+
+node groupme.js
+
+If you want it to run in the background, you can use something like Screen or pm2 to manage the job
